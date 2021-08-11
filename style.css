@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color:black;
+    border-radius: 30px;
+}
+.navbar ul{
+    opacity:1;
+    margin: 1px 20px;
+    overflow: auto;
+}
+    
+    
+
+.navbar li{
+    float: left;
+    margin-top: 20px;
+    list-style: none;
+   
+    
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    margin:0 30px;
+    padding: 14px 15px;
+    transition: 0.2s;
+    
+}
+.navbar li a:hover{
+    color:red;
+}
+   
+    
+.search{
+    margin-left: 100px;
+    float:right;
+     padding: 10px 10px;
+    
+}
+.navbar input{
+    background: red;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 6px 15px;
+    outline: none;
+}
+.navbar .fas{
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+    .banner-img{
+        margin:80px 115px;
+        width: 60%;
+
+    }
+    .banner-img img{
+        width: 100%;
+        margin: bottom -80px;
+    }
+    .banner-img{
+        position: relative;
+    }
+    .banner{
+        position: relative;
+    }
+    .banner-title{
+        position:absolute;
+        left: 50%;
+        top: 16%;
+    }
+    .banner-title h1{
+        font-size: 50px;
+        background: rgba(0,0,0,0.75);
+        color: white;
+        line-height: 70px;
+        padding: 0px 10px 0 10px;
+    }
+}
+
+#fasion-trends{
+    padding: 100px 0;
+    
+}
+.fasion-box{
+    margin: 80px 0;
+}
+    .title-style h1{
+        padding: 40px 0;
+
+    }
+    .title-style{
+        margin: 0 auto 80px;
+        height:120px;
+        width: 80%;
+        max-width: 700px;
+        background: #f5f6fc;
+        position: relative;
+        box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+
+    }
+    .title-style::after{
+        content: "";
+        height: 100px;
+        width: 200px;
+        background: #f992a6;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        z-index: -1;
+    }
+    .title-style::before{
+        content: "";
+        height: 100px;
+        width: 200px;
+        background: #f992a6;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        z-index: -1;
+    }
+    .trending-img{
+        position: relative;
+        margin-bottom: 45px;
+    }
+    .trending-img img{
+        width: 100%;
+    }
+    .btn-buy{
+        width: 120px;
+        padding: 10px 0;
+        outline: none !important;
+        border: none;
+        border-radius: 2px;
+        position: absolute;
+        background: #f5f6fc;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%,0);
+        transition: 0.4s;
+        opacity: 0;
+        z-index: 1;
+        
+    
+    }
+    .trending-img:hover .btn-buy{
+        transform: translate(-50%,50%);
+        bottom: 50%;
+        opacity: 1;
+    }
+    .overlay{
+        height: 0%;
+        width: 100%;
+        background: #333;
+        position: absolute;
+        top: 0%;
+        opacity: 0;
+        transition: .5s;
+    }
+    .trending-img:hover .overlay{
+        opacity: 0.4;
+        height: 100%;
+    }
+
+
+    .offer{
+        background: url(../fashion.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .row{
+        margin: initial !important;
+    }
+    .subscibe{
+        max-width: 500px;
+        margin-top: 80px;
+        padding: 60px;
+        background: #ffffff8c;
+        margin-bottom: 20px;
+    }
+    .subscibe a{
+        width:100px;
+        display:block;
+        color: ivory !important;
+        background:black;
+        text-decoration: none !important;
+        padding: 5px;
+        text-align: center;
+        
+    }
+    .offer img{
+        width: 300px;
+        height: 400px;
+        margin: -100px;
+        margin-top: 150px;
+    }
+
+    .fasion-blog{
+        margin: 250px 0 150px 0;
+    }
+    .blog-img{
+        margin-top: 50px;
+        height: 300px;
+        width: 300px;
+        display: inline-block;
+    }
+    .blog-img img{
+        width: 100%;
+        height: 120%;
+
+    }
+    .fasion-blog h5{
+        margin-top: 65px;
+        font-weight: bold;
+    }
+    .fasion-brands{
+        margin-bottom: 150px;
+    }
+    .brand-logo{
+        width:200px;
+        height: 200px;
+        background: blanchedalmond;
+        border-radius: 50%;
+        margin: 50px auto 30px;
+        box-shadow: 0 2px 40px 0 rgba(110,130,208,.18);
+    }
+    .brand-logo img{
+        width:100px;
+        margin:50px auto;
+
+    }
+    .fasion-brands p{
+        margin-top: 30px;
+        font-weight: bold;
+    }
+
+
+    .footer{
+        margin-top: 150px;
+        background: #f5f6fc;
+    }
+    .payment .insta-img .app{
+        margin: 50px auto;
+    }
+    .payment img{
+        width: 300px;
+        cursor:pointer;
+    }
+    .insta-img img{
+        width: 80px;
+        padding:5px;
+        cursor: pointer;
+    }
+    .app img{
+
+        width: 200px;
+    }
+    .footer h5{
+        margin-bottom: 10px;
+    }
+    .footer h5::before{
+        content: "";
+        width:70px;
+        height: 3px;
+        background: #4f7428;
+        top: 85px;
+        position: absolute;
+    }
+    .footer-icons{
+        text-align: right;
+    }
+    .footer-icons .fab{
+        margin: 0 10px auto;
+        font-size: 20px;
+        cursor:pointer
+    }
+
+    @media only screen and (max-width:900px)
+    {
+        .banner-img{
+            margin:40px auto;
+            width: 80%;
+        }
+        .banner-title{
+            top:180px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .banner-title h1{
+            font-size: 16px;
+            padding: 5px;
+            line-height: 20px;
+        }
+        .title-style h1{
+        
+            font-size: 25px;
+        }
+        .offer img{
+            margin-top:20px !important ;
+            margin-bottom: 0 !important;
+        }
+        .footer-icons {
+            text-align: center;
+        }
+        .copyright{
+            text-align: center;
+        }
+    
+    
+
+
+
+    
+ 
+ 
+
